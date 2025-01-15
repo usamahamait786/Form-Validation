@@ -1,0 +1,63 @@
+.error {
+    color: red;
+    font-size: x-small;
+    display: none;
+    margin-top: 5px;
+  }
+
+  #matcherror {
+    color: red;
+    font-size: x-small;
+    display: none;
+    margin-top: 5px;
+  }
+
+  .valid {
+    color: green;
+    font-size: small;
+
+  }
+
+  .invalid {
+    color: rgb(255, 0, 140);
+    font-size: small;
+  }
+
+  #selecterror {
+    display: none;
+    color: red;
+    font-size: x-small;
+    margin-left: 10px;
+  }
+
+  #cityerror {
+    display: none;
+    color: red;
+    font-size: x-small;
+    margin-top: 5px;
+  }
+
+  .alerthide {
+    display: none;
+    justify-content: center;
+    width: 900px;
+  }
+
+  .registrationAlert {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    font-size: 46px;
+    color: green;
+    text-decoration: underline;
+  }
+  #profileimage{
+    padding: 5px;;
+  }
+
+  #imageerror {
+    display: none;
+    color: red;
+    font-size: x-small;
+    margin-top: 5px;
+  }

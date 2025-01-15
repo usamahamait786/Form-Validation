@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+h1 {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#userData {
+    margin-top: 20px;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 10px;
+    margin: 20px;
+
+}
+.button-container {
+    display: flex;
+    gap: 10px;  /* Adds space between buttons */
+}
+button.edit-btn{
+    background-color: #008CBA;
+
+}
+button.delete-btn{
+    background-color: #f44336;
+}
+#searchInput{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
